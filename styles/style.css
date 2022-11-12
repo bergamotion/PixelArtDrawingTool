@@ -1,0 +1,23 @@
+
+
+body {
+    height: 100vh;
+    background-color: #393E46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    padding: 5px;
+    width: 512px;
+    height: 512px;
+    background-color: rgb(38, 38, 38);
+    display: inline-grid;
+    border-collapse: collapse;
+}
+
+.element {
+    border: 1px solid rgb(92, 89, 89);
+    background-color: #fff;
+}
