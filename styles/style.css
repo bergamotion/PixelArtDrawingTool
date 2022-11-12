@@ -44,12 +44,7 @@ body {
     background-color: #fff;
 }
 
-input[type=radio] {
-    display: none;
-    
-}
-
-input[type=radio]:checked + label {
+.activeButton {
     border-color: aquamarine;
     transition: 0.1s;
 }
@@ -60,7 +55,6 @@ input[type=radio]:checked + label {
     border: none;
     outline: none;
 }
-
 
 .noselect {
     -webkit-touch-callout: none; 
