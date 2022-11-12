@@ -10,25 +10,26 @@
     <script src="script.js" defer></script>
     <title>Pixel Art</title>
 </head>
-<body>
+<body> 
     <div class="wrapper">
-        <div id="container">
+        <div id="container" class="noselect" draggable="false">
         </div>
 
-        <!-- <div class="buttons">
-            <div class="eraser button">
+        <div class="controls">
+            <input type="radio" name="color" id="eraser" value="white">
+            <label class="eraser button" for="eraser">
                 <i class="fa-solid fa-eraser"></i>
-            </div>
+            </label>
 
-            <div class="red button">
-            </div>
+            <input type="radio" name="color" id="pencil" value="" checked>
+            <label class="pencil button" for="pencil">
+                <i class="fa-solid fa-pencil"></i>
+            </label>
 
-            <div class="blue button">
-            </div>
+            <input type="color" name="color" id="colorPicker">
 
-            <div class="white button">
-            </div>
-        </div> -->
+            
+        </div>
         
     </div>
 </body>
