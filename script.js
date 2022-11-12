@@ -11,7 +11,7 @@ function createPixelGrid(n) {
 }
 
 function changeColor() { 
-    this.style["background-color"] = "black";
+    this.style["background-color"] = color;
 }
 
 function startDrawing() {
@@ -27,6 +27,10 @@ function stopDrawing() {
 
 createPixelGrid(16);
 
+let color = "black";
+const eraser = document.getElementById("eraser");
+eraser.addEventListener("click", () => color = "white");
+
 const cells = document.getElementsByClassName("element");
 
 window.addEventListener("mousedown", function() {
@@ -40,6 +44,8 @@ window.addEventListener("mouseup", function() {
         cell.removeEventListener("mouseover", changeColor);
     });
 });
+
+
 
 
 
