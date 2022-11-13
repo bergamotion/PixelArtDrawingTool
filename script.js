@@ -46,7 +46,7 @@ let color = "black";
 let userColor = "black";
 let rainbowMode = false;
 
-// Eraser Button
+// Eraser Button 
 const eraser = document.getElementById("eraser");
 eraser.addEventListener("click", () => {
     rainbowMode = false;
